@@ -1,5 +1,5 @@
 //今天星期几
-<script>
+<script type="text/javascript" defer>
    function td() {
       let today= (new Date).getDay()
       switch (today) {
