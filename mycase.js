@@ -1,7 +1,5 @@
 //今天星期几
-
 <script>
-   setTimeout("td()", 1000 );
    function td() {
       let today= (new Date).getDay()
       switch (today) {
