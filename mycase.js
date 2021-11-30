@@ -1,6 +1,6 @@
 //今天星期几
 <script>
-   function td() {
+   let td = function(){
       let today= (new Date).getDay()
       switch (today) {
          case 1:
